@@ -284,13 +284,13 @@ export const projects = [
   {
     id: 13,
     title: "Airbnb Clone",
-    date: "",
+    date: "Mar 2023",
     description:
       "Modeled Airbnb website to learn more about React and TailwindCSS",
     webapp: "https://kanya-airbnb.netlify.app",
     category: "web app",
-    github: "https://github.com/Kanyakrishi/AirbnbClone",
-    tags: [],
+    github: "https://github.com/Kanyakrishi/AirbnbClone2",
+    tags: ["Next.js", "TailwindCSS"],
     image: airbnb,
   },
   {
