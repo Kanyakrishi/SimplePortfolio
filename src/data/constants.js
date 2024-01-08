@@ -47,7 +47,7 @@ export const Bio = {
     "Driven by a deep passion for technology and a relentless pursuit of innovation, my career has been a journey through various roles, including backend development, full-stack engineering, and technical leadership. Embracing each position, I've honed a diverse skill set, from hands-on coding to strategic team guidance. These roles have not only expanded my technical expertise but also underscored the value of collaboration. My ambition is to leverage this blend of technical acumen and teamwork to make a substantial impact as a software engineer.",
   github: "https://github.com/KanyaKrishi",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "https://drive.google.com/drive/folders/1U7YtNHzrGklYpi4_whtUFRVum4JmNXS3?usp=sharing",
   linkedin: "https://www.linkedin.com/in/kanya-krishi14/",
   mail: "mailto:kanyakrishi@gmail.com",
 };
