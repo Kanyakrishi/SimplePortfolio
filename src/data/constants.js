@@ -8,6 +8,7 @@ import hgr from "./hgr.png";
 import pdaintern from "./pdaintern.png"
 import nokia from "./nokia.png"
 import nokiaintern from "./nokiaintern.png"
+import nasdaq from "./KanyaNasdaqAward.jpg"
 
 export const Container = styled.div`
   display: flex;
@@ -198,7 +199,7 @@ export const experiences = [
     ],
     skills: ["C#", "Vue.js", "PostgreSQL"],
     link: "https://www.linkedin.com/pulse/nasdaq-internship-kanya-krishi/",
-    doc: "",
+    doc: nasdaq,
   },
 
   {
