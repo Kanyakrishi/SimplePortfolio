@@ -268,7 +268,7 @@ export const projects = [
   {
     id: 9,
     title: "CareerCompass",
-    date: "Jun 2023",
+    date: "Jul 2023",
     description:
       "Developed a cross-platform mobile application to simplify job searches. Integrated RapidAPI Job Search using axios to fetch job data and effectively manage React Native components. Converted Dribbble designs into pixel-perfect React Native code, maintaining the designer's vision & user experience.",
     image: cc,
