@@ -5,6 +5,9 @@ import aml from "./aml.png";
 import airbnb from "./airbnb.png";
 import cc from "./cc.png";
 import hgr from "./hgr.png";
+import pdaintern from "./pdaintern.png"
+import nokia from "./nokia.png"
+import nokiaintern from "./nokiaintern.png"
 
 export const Container = styled.div`
   display: flex;
@@ -215,17 +218,20 @@ export const experiences = [
       "Excelled in a leadership role as Scrum Master for an Agile team of 7, overseeing project developments, enhancing team collaboration, and ensuring effective stakeholder communication.",
     ],
     skills: ["Python", "Java", "SpringBoot", "Docker", "Kubernetes", "NoSQL"],
+    doc: nokia
   },
   {
     id: 2,
     img: "https://www.nokia.com/sites/default/files/styles/scale_1440_no_crop/public/2023-02/nokia-refreshed-logo-2_1.png.webp",
     role: "Software Engineer Intern",
-    skills: ["Flask", "MongoDB","HTML", "CSS", "Jenkins", "Agile"],
+    skills: ["Flask", "MongoDB", "HTML", "CSS", "Jenkins", "Agile"],
     company: "Nokia",
     date: "Jan 2019 - Jun 2019",
     desc: [
-      "Built full-stack web application using Flask & MongoDB to automate module testing and to analyze performance.", "Played a key role in an Agile development team, practicing continuous integration and deployment (CI/CD), and contributing to end-to-end (E2E) feature demonstrations for stakeholders."],
-    doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
+      "Built full-stack web application using Flask & MongoDB to automate module testing and to analyze performance.",
+      "Played a key role in an Agile development team, practicing continuous integration and deployment (CI/CD), and contributing to end-to-end (E2E) feature demonstrations for stakeholders.",
+    ],
+    doc: nokiaintern,
   },
 
   {
@@ -236,9 +242,10 @@ export const experiences = [
     date: "Jan 2018 - Feb 2018",
     skills: ["PHP", "MySQL", "JavaScript", "Data Analysis"],
     desc: [
-      "Independently designed a scalable full-stack DataSoftware that restructured communication flow and reduced manual work by 50% through improved data entry processes and efficient data analysis.", "Developed the system using PHP, MySQL, JavaScript, focusing on responsive UI and efficient backend interaction."
+      "Independently designed a scalable full-stack DataSoftware that restructured communication flow and reduced manual work by 50% through improved data entry processes and efficient data analysis.",
+      "Developed the system using PHP, MySQL, JavaScript, focusing on responsive UI and efficient backend interaction.",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
+    doc: pdaintern,
   },
 ];
 

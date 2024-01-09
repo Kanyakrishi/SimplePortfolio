@@ -100,7 +100,7 @@ const Date = styled.div`
 
 const Description = styled.div`
     font-weight: 400;
-    font-size: 14px;
+    font-size: 15px;
     color: ${({ theme }) => theme.text_secondary + 99};
     overflow: hidden;
     margin-top: 8px;
