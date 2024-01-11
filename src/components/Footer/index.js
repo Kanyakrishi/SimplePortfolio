@@ -98,9 +98,11 @@ function Footer() {
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.leetcode} target="display"><LinkedInIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.leetcode} target="display"><img src='https://cdn.iconscout.com/icon/free/png-512/free-leetcode-3628297-3031905.png?f=webp&w=512' alt='' style={{ width: '20px', height: '20px' }} />
+          </SocialMediaIcon>
           <SocialMediaIcon href={Bio.mail} target="display"><EmailIcon /></SocialMediaIcon>
         </SocialMediaIcons>
+
 
         <Copyright>
           &copy; Kanya Krishi

@@ -53,6 +53,7 @@ export const Bio = {
   resume:
     "https://drive.google.com/drive/folders/1U7YtNHzrGklYpi4_whtUFRVum4JmNXS3?usp=sharing",
   linkedin: "https://www.linkedin.com/in/kanya-krishi14/",
+  leetcode: "https://leetcode.com/kanyakrishi/",
   mail: "mailto:kanyakrishi@gmail.com",
 };
 
