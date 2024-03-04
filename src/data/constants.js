@@ -4,6 +4,7 @@ import travelDiariesImage from "./Traveldiaries.png"
 import aml from "./aml.png";
 import airbnb from "./airbnb.png";
 import cc from "./cc.png";
+import chbnlp from "./chbnlp.png"
 import hgr from "./hgr.png";
 import pdaintern from "./pdaintern.png"
 import nokia from "./nokia.png"
@@ -253,6 +254,18 @@ export const experiences = [
 
 
 export const projects = [
+  {
+    id: 14,
+    title: "Chatbot using NLP techniques",
+    date: "Mar 2024",
+    description:
+      "Developed an NLP-enhanced dog-focused chatbot for user interaction and response optimization, utilizing 5 different techniques like POS Tagging, Cosine Similarity, Dependency Parsing, LDA Topic Modeling, and NER. Implemented methods for real-time information retrieval and tailored responses, enhancing user experience. Constructed LDA model for 15 topic extraction and relevance matching, improving chatbot's accuracy and context-aware responses.",
+    github: "https://github.com/Kanyakrishi/ChatBotNLP",
+    category: "machine learning",
+    tags: [ "NLP", "Python",  "Dependency Parsing",  "LDA Topic Modeling", "NER",  "Real-time Information Retrieval"],
+    image: chbnlp,
+    webapp: "",
+  },
   {
     id: 12,
     title:
