@@ -47,7 +47,7 @@ export const Desc = styled.div`
 
 export const Bio = {
   name: "Kanya Krishi",
-  roles: ["Software Engineer"],
+  roles: ["Software Engineer", "Full-Stack Developer", "Backend Developer", "Machine Learning Engineer"],
   description:
     "Driven by a deep passion for technology and a relentless pursuit of innovation, my career has been a journey through various roles, including backend development, full-stack engineering, and technical leadership. Embracing each position, I've honed a diverse skill set, from hands-on coding to strategic team guidance. These roles have not only expanded my technical expertise but also underscored the value of collaboration. My ambition is to leverage this blend of technical acumen and teamwork to make a substantial impact as a software engineer.",
   github: "https://github.com/KanyaKrishi",
@@ -189,21 +189,22 @@ export const skills = [
 
 export const experiences = [
   {
-    id: 0,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOkTExWNmWSQ9GeZ1XjljcrKQbNSZ0dCalE_p_bIU34Q&s",
-    role: "Software Engineer Intern",
-    company: "Nasdaq",
-    date: "Jun 2023 - Aug 2023",
-    desc: [
-      "Independently built a Vue.js based full-stack tool for grouping 100+ firms and integrated Elasticsearch for data retrieval.",
-      "Empowered investors to benchmark peers and competitors efficiently enhancing investment intelligence by 30%.",
-      "Developed backend with C# & PostgreSQL scripts to handle complex queries for a finance-intensive application.",
+    "id": 0,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOkTExWNmWSQ9GeZ1XjljcrKQbNSZ0dCalE_p_bIU34Q&s",
+    "role": "Software Engineer Intern",
+    "company": "Nasdaq",
+    "date": "Jun 2023 - Aug 2023",
+    "desc": [
+      "Engineered a Vue.js full-stack tool to group 100+ firms, boosted investor benchmarking efficiency and enhanced investment intelligence by 30%. Fetched the required firms using Elasticsearch.",
+      "Developed robust backend with C# & PostgreSQL scripts to handle complex queries for a finance-intensive application.",
+      "Resolved frontend performance bugs to improve user experience while performing a search of 1000 financial firms.",
+      "Built 5 key React.js based front-end solutions to fortify client-manager relationships, winning 'Audience Choice' award.",
+      "Implemented continuous integration using BitBucket and led end-to-end (E2E) feature demonstrations for stakeholders."
     ],
-    skills: ["C#", "Vue.js", "PostgreSQL"],
-    link: "https://www.linkedin.com/pulse/nasdaq-internship-kanya-krishi/",
-    doc: nasdaq,
+    "skills": ["C#", "Vue.js", "PostgreSQL", "React"],
+    "link": "https://www.linkedin.com/pulse/nasdaq-internship-kanya-krishi/",
+    "doc": nasdaq
   },
-
   {
     id: 1,
     img: "https://www.nokia.com/sites/default/files/styles/scale_1440_no_crop/public/2023-02/nokia-refreshed-logo-2_1.png.webp",
@@ -211,16 +212,15 @@ export const experiences = [
     company: "Nokia",
     date: "Jul 2019 - July 2022",
     desc: [
-      "Spearheaded end-to-end development of 5G mMIMO to enhance network scalability and sales by 40%.",
-      "Enhanced 5G network slicing by revamping cloud architecture with Java, Spring Boot, and Kafka, leveraged Docker and Kubernetes for scalable, cloud-native solutions, aligning with distributed systems and large-scale data handling needs.",
-      "Boosted multi-vendor module performance and accuracy by optimizing key components with Python and NoSQL databases, while also offering technical mentorship to collaborative teams.",
-      "Collaborated on a Python based advanced polygon creation algorithm by enhancing detection of high-impact network cells thereby contributing to efficient network performance and real-time data processing.",
-      "Expertise in writing technical documentation and drafting technical specification for 5G / 4G features.",
-      "Implemented a weather optimization module for improving network coverage as a part of 2-person innovation team.",
-      "Automated test cases to validate feature functionality against technical requirements, adopted test driven development practices to ensure code reliability. Proficient in implementing CI/CD pipelines using Jenkins.",
-      "Excelled in a leadership role as Scrum Master for an Agile team of 7, overseeing project developments, enhancing team collaboration, and ensuring effective stakeholder communication.",
+      "Spearheaded end-to-end Python development of mMIMO support optimizing 10,000 5G cells using strategic KPIs and crafting technical specifications resulting in 40% increased sales.", "Automated over 150 test cases adhering to test driven development.",
+      "Enhanced 5G network slicing by revamping cloud architecture with Java, Spring Boot.",
+      "Participated in the migration of network modules to a microservices architecture utilizing Docker & Kubernetes for deployment.",
+      "Boosted new cell detection power of module by introducing 15 features with Python and NoSQL, scaling upto 1,00,000 cells.",
+      "Designed Python scripts to automate format transitions of 10 parameters to ensure backward compatibility.",
+      "Pioneered a weather-based API to enhance coverage of poorly affected cells as part of a 2-person innovation team.",
+      "Excelled as Scrum Master for an Agile team of 7, adeptly managing the software development life cycle processes."
     ],
-    skills: ["Python", "Java", "SpringBoot", "Docker", "Kubernetes", "NoSQL"],
+    skills: ["Python", "Java", "SpringBoot", "Docker", "Kubernetes", "NoSQL", "Kafka"],
     doc: nokia
   },
   {
